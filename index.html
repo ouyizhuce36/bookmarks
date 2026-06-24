@@ -1,9 +1,82 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Bookmarks - 我的收藏</title></head>
-<body><h1>我的收藏</h1>
-<ul>
-<li><a href="https://www.k232323.sbs" rel="nofollow">K232323</a></li>
-<li><a href="https://7x24.best" rel="nofollow">7x24 Best</a></li>
-<li><a href="https://7x24.buzz" rel="nofollow">7x24 Buzz</a></li>
-</ul><li><a href="https://www.chongwuyongyao.cn/" rel="nofollow">宠物用药参考指南</a></li>
-</ul>
-</body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>// bookmarks</title>
+<meta name="description" content="个人书签收藏站">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"JetBrains Mono","Cascadia Code","SF Mono","Fira Code",monospace;background:#0d0d12;color:#c9d1d9;font-size:14px;line-height:1.7}
+.wrap{max-width:800px;margin:0 auto;padding:40px 24px 80px}
+.prompt-line{color:#565f89;font-size:.85em;margin-bottom:4px;display:flex;gap:8px}
+.prompt-line .user{color:#7aa2f7}
+.prompt-line .path{color:#bb9af7}
+.prompt-line .cursor{animation:blink .8s step-end infinite}
+@keyframes blink{50%{opacity:0}}
+h1{color:#bb9af7;font-size:1.1em;font-weight:400;margin:24px 0 4px;display:flex;align-items:center;gap:8px}
+h1::before{content:"── ";color:#565f89}
+.section{margin:0 0 32px 20px;border-left:1px solid #1f2235;padding-left:20px}
+.section-header{color:#565f89;font-size:.85em;margin-bottom:10px}
+.item{display:flex;align-items:baseline;gap:8px;padding:6px 0;border-bottom:1px solid #161922}
+.item:last-child{border-bottom:none}
+.item-index{color:#565f89;font-size:.8em;min-width:24px}
+.item a{color:#7dcfff;text-decoration:none;font-size:.9em}
+.item a:hover{color:#ff9e64;text-decoration:underline}
+.item .desc{color:#565f89;font-size:.8em;margin-left:auto;white-space:nowrap}
+.divider{color:#1f2235;text-align:center;margin:32px 0;font-size:.8em;letter-spacing:8px}
+.stats{color:#565f89;font-size:.78em;margin-top:32px;padding-top:20px;border-top:1px solid #1f2235}
+.stats span{color:#7aa2f7}
+@media(max-width:600px){.wrap{padding:24px 16px 60px}.item .desc{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="prompt-line">
+  <span class="user">lucky</span><span>@</span><span class="path">bookmarks</span><span>:</span><span>~$</span>
+  <span class="cursor">▊</span>
+</div>
+<div style="color:#565f89;font-size:.8em;margin-bottom:20px"># 个人书签 · 按类别整理</div>
+
+<h1>AI 工具</h1>
+<div class="section">
+  <div class="section-header"># 3 items</div>
+  <div class="item"><span class="item-index">01</span><a href="https://chat.openai.com" target="_blank" rel="nofollow">ChatGPT</a><span class="desc">对话助手</span></div>
+  <div class="item"><span class="item-index">02</span><a href="https://claude.ai" target="_blank" rel="nofollow">Claude</a><span class="desc">长文本分析</span></div>
+  <div class="item"><span class="item-index">03</span><a href="https://www.deepseek.com" target="_blank" rel="nofollow">DeepSeek</a><span class="desc">国产免费</span></div>
+</div>
+
+<h1>开发</h1>
+<div class="section">
+  <div class="section-header"># 4 items</div>
+  <div class="item"><span class="item-index">04</span><a href="https://github.com" target="_blank" rel="nofollow">GitHub</a><span class="desc">代码托管</span></div>
+  <div class="item"><span class="item-index">05</span><a href="https://vercel.com" target="_blank" rel="nofollow">Vercel</a><span class="desc">前端部署</span></div>
+  <div class="item"><span class="item-index">06</span><a href="https://cloudflare.com" target="_blank" rel="nofollow">Cloudflare</a><span class="desc">CDN/DNS</span></div>
+  <div class="item"><span class="item-index">07</span><a href="https://stackoverflow.com" target="_blank" rel="nofollow">Stack Overflow</a><span class="desc">开发问答</span></div>
+</div>
+
+<h1>设计</h1>
+<div class="section">
+  <div class="section-header"># 2 items</div>
+  <div class="item"><span class="item-index">08</span><a href="https://unsplash.com" target="_blank" rel="nofollow">Unsplash</a><span class="desc">免费图库</span></div>
+  <div class="item"><span class="item-index">09</span><a href="https://neumorphism.io" target="_blank" rel="nofollow">Neumorphism</a><span class="desc">CSS生成</span></div>
+</div>
+
+<h1>学习</h1>
+<div class="section">
+  <div class="section-header"># 2 items</div>
+  <div class="item"><span class="item-index">10</span><a href="https://developer.mozilla.org/zh-CN/" target="_blank" rel="nofollow">MDN</a><span class="desc">Web文档</span></div>
+  <div class="item"><span class="item-index">11</span><a href="https://www.w3schools.com" target="_blank" rel="nofollow">W3Schools</a><span class="desc">入门教程</span></div>
+</div>
+
+<div class="divider">· · ·</div>
+
+<div class="stats">
+  <div><span>11</span> bookmarks · <span>5</span> categories</div>
+  <div style="margin-top:4px">last updated: 2026-06-25</div>
+</div>
+
+</div>
+</body>
+</html>
